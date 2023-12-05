@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 import { RiFolderAddLine } from "react-icons/ri";
 import { BiEdit } from "react-icons/bi";
 import { RiDeleteBin6Fill } from "react-icons/ri";
@@ -47,9 +47,9 @@ const tagdata = [
 
 
 const pages = () => {
-  const [open, setOpen] = React.useState(false);
-  const [scroll, setScroll] = React.useState('paper');
-  const [maxWidth, setMaxWidth] = React.useState('sm');
+  const [open, setOpen] = useState(false);
+  const [scroll, setScroll] = useState('paper');
+  const [maxWidth, setMaxWidth] = useState('sm');
 
   const handleClickOpen = (scrollType) => () => {
     setOpen(true);
