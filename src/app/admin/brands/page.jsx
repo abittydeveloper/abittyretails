@@ -9,6 +9,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 import { MdCancel } from "react-icons/md";
+import Image from 'next/image';
 
 const tagdata = [
 
@@ -46,7 +47,7 @@ const tagdata = [
 ]
 
 
-const pages = () => {
+const Pages = () => {
   const [open, setOpen] = useState(false);
   const [scroll, setScroll] = useState('paper');
   const [maxWidth, setMaxWidth] = useState('sm');
@@ -128,7 +129,7 @@ const pages = () => {
             </div>
             <div className=" flex justify-center mt-5 flex-col ">
               <div className='flex gap-1 '>
-                <img className=" h-32 w-24" src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+                <Image className=" h-32 w-24" src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
 
                 <MdCancel style={{ fontSize: "25px" }} className='text-gray-300 hover:text-gray-500 mr-7 cursor-pointer' />
               </div>
@@ -145,4 +146,4 @@ const pages = () => {
   )
 }
 
-export default pages
+export default Pages

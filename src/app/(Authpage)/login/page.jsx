@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -14,7 +15,7 @@ const Login = () => {
         </form>
         or
         <div className="flex border border-gray-300 w-11/12 justify-center items-center p-2 rounded-lg mt-1 cursor-pointer">
-          <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png" className="w-5 mr-2" />
+          <Image src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png" alt="image" className="w-5 mr-2" />
           Signin with Google
         </div>
 

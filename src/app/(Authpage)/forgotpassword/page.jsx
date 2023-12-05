@@ -9,7 +9,7 @@ const Forgotpassword = () => {
         <form className="flex flex-col w-11/12  items-center">
           <h1 className="font-medium pb-5 text-xl">Forgot password</h1>
 
-          <p>Enter the email address associated with your account and we'll send you a link to  reset your password</p>
+          <p>Enter the email address associated with your account and we will send you a link to  reset your password</p>
           <input type="password" placeholder='Enter your password' className="border border-gray-300 p-2 w-full rounded-lg  focus:outline-slate-400 mt-2" autoComplete='off' />
           <button className="bg-slate-800 text-white w-full p-2 rounded-lg hover:bg-slate-700 mt-3">Send Email</button>
         </form>
