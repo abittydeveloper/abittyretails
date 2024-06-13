@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <main className=" w-screen h-screen flex justify-center items-center">
     <div>Hello from abitty</div>
-      <embed
+      <iframe
         src={pdfUrl}
         width="100%"
         height="750px"
-        type="application/pdf"
         style={{ border: 'none' }}
-      />
+        title="PDF Viewer"
+      ></iframe>
     </main>
   )
 }
