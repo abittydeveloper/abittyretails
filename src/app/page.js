@@ -7,13 +7,7 @@ export default function Home() {
   return (
     <main className=" w-screen h-screen flex justify-center items-center">
     <div>Hello from abitty</div>
-      <iframe
-        src={googleDocsViewerUrl}
-        width="100%"
-        height="750px"
-        style={{ border: 'none' }}
-        title="PDF Viewer"
-      ></iframe>
+     <a href="https://docs.google.com/presentation/d/1adHtN6dbbqH4pbiUvE6ZvS-bgtyaWe0HAe7fdmU_paI/edit?usp=sharing">click</a>
     </main>
   )
 }
