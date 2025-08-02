@@ -6,8 +6,8 @@ export default function Home() {
   const googleDocsViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(pdfUrl)}&embedded=true`;
   return (
     <main className=" w-screen h-screen flex justify-center items-center">
-    <div>Hello from abitty</div>
-     <a href="https://docs.google.com/presentation/d/1adHtN6dbbqH4pbiUvE6ZvS-bgtyaWe0HAe7fdmU_paI/edit?usp=sharing">click</a>
+    <div>03-08-2025 </div>
+     <a href="https://docs.google.com/presentation/d/11RN2zIDuBke_ZBXZ5yrpAAx00TXgSPhz8nxXa54i4aE/edit?slide=id.g37415c0a81b_0_119#slide=id.g37415c0a81b_0_119">click</a>
     </main>
   )
 }
